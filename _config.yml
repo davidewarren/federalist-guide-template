@@ -11,6 +11,11 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
 # Navigation and Sidebar
 expand_nav: true
 navigation:
