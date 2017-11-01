@@ -2,10 +2,9 @@ title: Insert Site Title
 email: your-email@example.com
 github_username:  davidewarren
 
-repos:
-- name: test repo
-  description: Main repository
-  url: https://github.com/davidewarren/federalist-guide-template
+base url: /federalist-guide-template
+
+url: https://github.com/davidewarren/federalist-guide-template
 
 # Build settings
 markdown: kramdown
