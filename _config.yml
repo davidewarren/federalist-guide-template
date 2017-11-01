@@ -42,10 +42,14 @@ plugins:
 #   - vendor/ruby/
 
 # Navigation and Sidebar
+expand_nav: true
 navigation:
-- text: Home
-  url: /
+- text: Overview
   internal: true
 - text: Getting Started
-  url: /pages/getting-started/  
+  url: pages/getting-started
+  internal: true
+- text: Background
+  url: getting-started/
+  internal: true
  
