@@ -15,7 +15,7 @@ collections:
     permalink: /:path/
 
 docs_list_title: ACME Documentation
-navigation:
+docs:
 
 - title: Introduction
   url: introduction.html
