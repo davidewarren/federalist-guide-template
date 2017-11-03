@@ -12,14 +12,17 @@ collections:
     output: true
     permalink: /:path/
 
-expand_nav: true
-navigation:
-- text: Overview
-  url: /overview/
-  internal: true
-- text: Getting Started
-  url: /getting-started/
-  internal: true
+docs_list_title: ACME Documentation
+docs:
+
+- title: Introduction
+  url: introduction.html
+
+- title: Configuration
+  url: configuration.html
+
+- title: Deployment
+  url: deployment.html
  
  # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
