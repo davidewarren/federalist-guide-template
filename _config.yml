@@ -2,6 +2,8 @@ title: Insert Site Title
 email: your-email@example.com
 github_username:  davidewarren
 
+name: Insert Site Title
+
 repos:
 - name: federalist-guide-template
   description: Main repository
