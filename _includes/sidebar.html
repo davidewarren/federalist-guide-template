@@ -1,4 +1,6 @@
-{% for item in site.data.samplelist.docs %}
-      <li><a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a></li>
-   {% endfor %}
+{% for link in site.data.samplelist.docs %}
+      <li>
+            <a href="{{ link.url }}" alt="{{ link.title }}">{{ link.title }}</a>
+      </li>
+{% endfor %}
 
