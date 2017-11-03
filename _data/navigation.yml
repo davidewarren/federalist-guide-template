@@ -1,10 +1,13 @@
 docs:
 
 - title: Overview
-  url: index.md
+  url: /
 
 - title: Getting Started
   url: pages/getting-started.md
 
 - title: Deployment
-  url: deployment.html
+  url: pages/getting-started.html
+  
+- title: Team
+  url: https://github.com/davidewarren/federalist-guide-template/blob/master/pages/getting-started.md
