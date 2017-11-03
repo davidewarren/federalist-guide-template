@@ -4,14 +4,14 @@ docs:
   url: index.html
   
 - title: Background
-  url: pages/background.html
+  url: background.html
 
 - title: Getting Started
-  url: pages/getting-started.html
+  url: getting-started.html
   
 - title: Team
-  url: pages/team.html
+  url: team.html
   
 - title: Contact U
-  url: pages/contact-us.html
+  url: contact-us.html
   
