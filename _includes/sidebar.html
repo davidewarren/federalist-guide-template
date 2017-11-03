@@ -1,5 +1,5 @@
-<h2>{{ site.data.samplelist.docs_list_title }}</h2>
-<ul>
+<aside class="usa-width-one-third usa-layout-docs-sidenav">
+<ul class="usa-sidenav-list">
    {% for item in site.data.samplelist.docs %}
       <li><a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a></li>
    {% endfor %}
