@@ -1,6 +1,4 @@
-<aside class="usa-width-one-third usa-layout-docs-sidenav">
-<ul class="usa-sidenav-list">
-   {% for item in site.data.samplelist.docs %}
+{% for item in site.data.samplelist.docs %}
       <li><a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a></li>
    {% endfor %}
-</ul>
+
