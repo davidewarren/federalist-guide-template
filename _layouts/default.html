@@ -9,9 +9,10 @@
       {% include header.html %}
       <div class="usa-grid">
 
-        {% include sidebar.html %}
+        <aside class="usa-width-one-third usa-layout-docs-sidenav">
+<ul class="usa-sidenav-list">  {% include sidebar.html %}      </ul>
+        </aside>
         <main id="main" class="usa-width-two-thirds usa-layout-docs-main_content" role="main">
-          <h1>{{ page.title }}</h1>
           {{ content }}
         </main>
 
